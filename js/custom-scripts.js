@@ -3,7 +3,7 @@ function get_action()
 	var input_value=document.getElementById("input_value").value;
     if(input_value !=="")
 	{
-		window.open("https://baidu.com/s?wd=" + input_value);
+		window.location.href="https://baidu.com/s?wd=" + input_value;
 	}
     document.onkeydown = function(e)
 	{
